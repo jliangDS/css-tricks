@@ -1,0 +1,18 @@
+a {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/navigation-sprites.svg) no-repeat;
+    height: 60px;
+    width: 60px;
+  }
+
+a:hover {
+    background-position: -60px 0;
+}
+
+body {
+    align-items: center;
+    background-color: #eaeaea;
+    flex-flow: column;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
