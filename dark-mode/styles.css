@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex; 
+    font-family: "Literata", serif;
+    overflow: hidden;
+    color: #222;
+}
+
+[class*="wrapper"] {
+    display: grid;
+    place-items: center;
+    width: 50vw;
+    padding: 40px;
+    overflow: hidden;
+}
+
+p {
+    line-height: 1.43;
+    font-size: 20px;
+    max-width: 640px;
+    font-weight: 500;
+}
+
+.wrapper-dark {
+    background-color: #111;
+    color: white;
+}
+
+.wrapper-dark p {
+    font-weight: 400;
+}
